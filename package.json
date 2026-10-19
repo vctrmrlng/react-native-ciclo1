@@ -25,9 +25,5 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "private": true,
-  "devDependencies": {
-    "eslint": "^9.0.0",
-    "eslint-config-expo": "~57.0.2"
-  }
+  "private": true
 }

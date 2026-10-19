@@ -49,6 +49,10 @@ O projeto conta com a separação arquitetural clara entre as telas (`screens/`)
     npm install
 4. **Passo 4: Configurar o Modo de Navegação Desejado**\
     Abra o arquivo src/routes/index.jsx no seu editor de código e altere o valor da constante TIPO_DE_NAVEGACAO para o modo que deseja testar ou apresentar. As opçoes são stack, bottom, drawer e aninhado
+<<<<<<< HEAD
 5. **Iniciar o Servidor do Expo **\
+=======
+5. **Iniciar o Servidor do Expo**
+>>>>>>> baf9115a323fe9eaf3fdd67e0473b12b78beab6c
     npx expo start 
    
