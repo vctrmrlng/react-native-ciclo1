@@ -41,15 +41,14 @@ O projeto conta com a separação arquitetural clara entre as telas (`screens/`)
 
 ## 🚀 Como Executar o Projeto
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/vctrmrlng/react-native-ciclo1.git](https://github.com/vctrmrlng/react-native-ciclo1.git)
-2. **Acessar a pasta do projeto**
+1. **Clone o repositório:**\
+   git clone github.com/vctrmrlng/react-native-ciclo1.git
+2. **Acessar a pasta do projeto**\
     cd my-app
-3. **instalar as dependecias do Node.js**
+3. **instalar as dependecias do Node.js**\
     npm install
-4. **Passo 4: Configurar o Modo de Navegação Desejado**
+4. **Passo 4: Configurar o Modo de Navegação Desejado**\
     Abra o arquivo src/routes/index.jsx no seu editor de código e altere o valor da constante TIPO_DE_NAVEGACAO para o modo que deseja testar ou apresentar. As opçoes são stack, bottom, drawer e aninhado
-5. **Iniciar o Servidor do Expo ** 
+5. **Iniciar o Servidor do Expo **\
     npx expo start 
    
