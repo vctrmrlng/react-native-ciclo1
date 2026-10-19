@@ -25,7 +25,7 @@ import { DrawerRoutes } from "./DrawerRoutes";
 // código. Valores aceitos: "stack" | "bottom" | "drawer"
 // ----------------------------------------------------------------------------
 
-const TIPO_DE_NAVEGACAO = "stack";
+const TIPO_DE_NAVEGACAO = "aninhado";
 
 export function Routes() {
     return (
@@ -34,6 +34,7 @@ export function Routes() {
             {TIPO_DE_NAVEGACAO === "stack" && <StackRoutes />}
             {TIPO_DE_NAVEGACAO === "bottom" && <BottomRoutes />}
             {TIPO_DE_NAVEGACAO === "drawer" && <DrawerRoutes />}
+            {TIPO_DE_NAVEGACAO === "aninhado" && <DrawerRoutes />}
             </NavigationContainer>
  );
 }
